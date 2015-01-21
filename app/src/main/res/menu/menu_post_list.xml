@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:ngvl="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/search"
+        ngvl:actionViewClass="android.support.v7.widget.SearchView"
+        ngvl:showAsAction="collapseActionView|always"/>
+    
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/about"
+        ngvl:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">nglauber</string>
+    <string name="authority" translatable="false">ngvl.android.blogger.provider</string>
+    <string name="account_type" translatable="false">nglauber.com.br</string>
+
+
+    <string name="no_items">No items available.</string>
+    <string name="no_conneciton">No internet connection available.</string>
+    <string name="try_again">Try again</string>
+    <string name="fetching_more_results">Fetching results</string>
+    <string name="share">Share</string>
+    <string name="fail_to_fetch">Fail to fetch results</string>
+    <string name="last_update">Last update: %s</string>
+    <string name="end_of_posts_reached">End of posts reached.</string>
+    <string name="refresh">Resfresh</string>
+    <string name="retry">Retry</string>
+    <string name="recent_posts">Recent Posts</string>
+    <string name="favorites">Favorites</string>
+    <string name="added_to_favorites">Post added to favorites</string>
+    <string name="removed_from_favorites">Post removed from favorites</string>
+    <string name="failed_add_to_favorites">Failed to add to favorites</string>
+    <string name="about">About</string>
+    <string name="about_developed_by">Developed by: Nelson Glauber\nnglauber.blogspot.com\n@nglauber\n+NelsonGlauber</string>
+    <string name="version">Version: %s</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search for posts</string>
+    <string name="search_results_from">Results for \"%s\"</string>
+    <string name="read_on_browser">Read on browser</string>
+    <string name="mark_as_favorite">Favorite</string>
+</resources>

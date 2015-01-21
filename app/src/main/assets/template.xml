@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta content = "width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name = "viewport" />
+	<script type="text/javascript" src="scripts/shCore.js"></script>
+	<script type="text/javascript" src="scripts/shBrushXml.js"></script>
+	<script type="text/javascript" src="scripts/shBrushJava.js"></script>
+	<script type="text/javascript" src="scripts/shBrushObjC.js"></script>
+	<script type="text/javascript" src="scripts/shLegacy.js"></script> 
+	<link type="text/css" rel="stylesheet" href="styles/shCoreDefault.css"/>
+	 
+	<style>
+		@font-face {
+			font-family: 'Oxygen';
+		    font-style: normal;
+		    font-weight: 400;
+		    src: local('Oxygen'), local('Oxygen-Regular'), url('oxygen.woff') format('woff');
+		}
+		body {
+			font-family: 'Oxygen', sans-serif;
+			padding: 10px;
+			line-height: 28px;
+			font-weight: normal;
+			font-size: 12pt;
+			text-align:justify;
+			text-justify:inter-word;			
+		}
+		h, h1, h2, h3, h4, h5 {
+			margin: 0;
+			border: 0;			
+			font-size: 20pt;	
+			text-align:left;
+			font-weight: normal;
+		}
+
+		#container {
+			margin-top:10px;
+			width:100%;
+			word-wrap:break-word;
+		}
+		img {
+ 		    max-width: 90%;
+		}
+	</style>		
+	</head>
+	<body>
+		<h3>#TITLE#</h3>
+		<div id="container">#CONTEUDO#</div>	    
+		<script type="text/javascript">
+		    SyntaxHighlighter.defaults['toolbar'] = false;
+		    SyntaxHighlighter.defaults['gutter'] = false;
+		    SyntaxHighlighter.all();
+		    dp.SyntaxHighlighter.HighlightAll('code');
+		</script> 		
+	</body>
+</html>

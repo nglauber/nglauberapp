@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:ngvl="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_share"
+        android:title="@string/share"
+        ngvl:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        ngvl:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_favorite"
+        android:icon="@drawable/ic_action_favorite"
+        android:title="@string/mark_as_favorite"
+        ngvl:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_browser"
+        android:icon="@drawable/ic_action_browser"
+        android:title="@string/read_on_browser"
+        ngvl:showAsAction="always"/>
+</menu>

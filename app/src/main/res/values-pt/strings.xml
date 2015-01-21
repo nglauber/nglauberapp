@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">nglauber</string>
+    <string name="no_items">Não há itens disponíveis.</string>
+    <string name="no_conneciton">Sem conexão com a internet.</string>
+    <string name="try_again">Tente novamente</string>
+    <string name="fetching_more_results">Baixando resultados</string>
+    <string name="share">Compartilhar</string>
+    <string name="fail_to_fetch">Problemas ao obter resultados</string>
+    <string name="last_update">Ult. atualização: %s</string>
+    <string name="end_of_posts_reached">Fim da lista de posts.</string>
+    <string name="refresh">Atualizar</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="recent_posts">Posts Recentes</string>
+    <string name="favorites">Favoritos</string>
+    <string name="added_to_favorites">Post adicionado aos favoritos</string>
+    <string name="removed_from_favorites">Post removido dos favoritos</string>
+    <string name="failed_add_to_favorites">Erro ao adicionar aos favoritos</string>
+    <string name="about">Sobre</string>
+    <string name="about_developed_by">Desenvolvido por: Nelson Glauber\nnglauber.blogspot.com\n@nglauber\n+NelsonGlauber</string>
+    <string name="version">Versão: %s</string>
+     <string name="search">Busca</string>
+	<string name="search_hint">Buscar postagens</string>
+	<string name="search_results_from">Resultados para \"%s\"</string>
+	<string name="read_on_browser">Ler no navegador</string>
+	<string name="mark_as_favorite">Favorito</string>
+</resources>
