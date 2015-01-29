@@ -53,6 +53,12 @@
                 android:name="android.app.searchable"
                 android:resource="@xml/search_posts" />
         </activity>
+        <activity android:name="ngvl.android.blogger.ui.SettingsActivity"
+            android:parentActivityName=".ui.SettingsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.PostsActivity" />
+        </activity>
 		<provider android:name=".storage.BuscaSuggestionProvider"
               android:authorities="ngvl.android.blogger.storage.BuscaSuggestionProvider" />
         <provider
