@@ -8,11 +8,16 @@
         android:title="@string/search"
         ngvl:actionViewClass="android.support.v7.widget.SearchView"
         ngvl:showAsAction="collapseActionView|always"/>
-    
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/settings"
+        ngvl:showAsAction="never"/>
     <item
         android:id="@+id/menu_about"
         android:icon="@android:drawable/ic_menu_help"
         android:title="@string/about"
         ngvl:showAsAction="never"/>
+   
 
 </menu>

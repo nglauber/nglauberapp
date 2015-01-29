@@ -18,6 +18,7 @@
     <string name="removed_from_favorites">Post removido dos favoritos</string>
     <string name="failed_add_to_favorites">Erro ao adicionar aos favoritos</string>
     <string name="about">Sobre</string>
+    <string name="settings">Configurações</string>
     <string name="about_developed_by">Desenvolvido por: Nelson Glauber\nnglauber.blogspot.com\n@nglauber\n+NelsonGlauber</string>
     <string name="version">Versão: %s</string>
      <string name="search">Busca</string>
