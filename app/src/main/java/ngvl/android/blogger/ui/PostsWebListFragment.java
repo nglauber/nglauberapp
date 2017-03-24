@@ -184,9 +184,17 @@ public class PostsWebListFragment extends ListFragment implements
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         Log.w(TAG, "onOptionsItemSelected");
-        if (item.getItemId() == R.id.menu_about) {
-            showAbout();
-        }
+        switch (item.getItemId()) {
+		case R.id.menu_about:
+			showAbout();
+			break;
+		case R.id.menu_settings:
+			goSettings();
+			break;	
+		default:
+			break;
+		}
+      
         return super.onOptionsItemSelected(item);
     }
 
@@ -234,6 +242,11 @@ public class PostsWebListFragment extends ListFragment implements
     private void showAbout() {
         AboutDialogFragment aboutDialog = new AboutDialogFragment();
         aboutDialog.show(getFragmentManager(), "about");
+    }
+    
+    private void goSettings() {
+      Intent it = new Intent(getActivity(),SettingsActivity.class);
+      startActivity(it);
     }
 
     private void retrievePostsFromPage(String page) {

@@ -1,8 +1,10 @@
 package ngvl.android.blogger.ui;
 
+import ngvl.android.blogger.storage.BuscaSuggestionProvider;
 import android.app.SearchManager;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.SearchRecentSuggestions;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
@@ -75,6 +77,12 @@ public class PostsSearchActivity extends ActionBarActivity implements OnPostFoun
             String query = intent.getStringExtra(SearchManager.QUERY);
             //use the query to search your data somehow
             Log.d(TAG, "Searching for:"+ query);
+            
+          
+            SearchRecentSuggestions suggestions = new SearchRecentSuggestions(this,
+                    BuscaSuggestionProvider.AUTHORITY, BuscaSuggestionProvider.MODE);
+            //Saving the query in Provider
+            suggestions.saveRecentQuery(query, null);
 
             getSupportActionBar().setTitle(getString(R.string.search_results_from, query));
 
